@@ -58,8 +58,7 @@ emotion-signin/
 ## 🚀 How to Run
 
 1. **Clone the repo**
-   git clone https://github.com/your-username/emotion-signin.git
-   cd emotion-signin
+   git clone https://github.com/Varunwatts/signin-emoji-password.git
 2. **Download the models (or use the provided ones)**
    tiny_face_detector_model
    face_expression_model
