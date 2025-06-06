@@ -5,8 +5,7 @@ An innovative and fun authentication system where your **facial expressions beco
 ---
 
 ## 📸 Live Demo
-
-👉 [Add your GitHub Pages / Netlify Link here]  
+ 
 🎥 Supports real-time camera access and expression-based emoji authentication.
 
 ---
