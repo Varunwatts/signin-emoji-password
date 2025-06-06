@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emoji Password Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <video id="video" autoplay muted></video>
+    <div id="emoji">🙂</div>
+    
+    <div class="buttons">
+      <button id="snap">📸 Take Snap</button>
+      <button id="reset">🔁 Reset</button>
+    </div>
+
+    <form class="signin-form">
+      <h2>Sign In</h2>
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Emoji Password" id="password" readonly />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script defer src="script.js"></script>
+</body>
+</html>
